@@ -35,7 +35,7 @@ Developed by: Gayathri A
 RegisterNumber: 212221230028
 
 using NAND:
-   
+   ```
    module combo1(a,b,c,d,f);
    
    input a,b,c,d;
@@ -53,9 +53,9 @@ using NAND:
    assign f=(~(~p & ~q & ~r));
    
    endmodule
-
+```
 using NOR:
-   
+   ```
    module combo2(a,b,c,d,f);
    
    input a,b,c,d;
@@ -73,6 +73,7 @@ using NOR:
    assign f=(~(~( p | q | r)));
    
    endmodule
+   ```
 */
 ## RTL realization
 
